@@ -61,3 +61,4 @@ npm run test:smoke
 ## 5. Reports
 After test execution, open the auto-generated HTML report:
 - `reports/cucumber-report.html`
+

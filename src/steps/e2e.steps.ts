@@ -32,3 +32,4 @@ Then('the cart badge counter should display {string}', async function (this: Cus
   const inventoryPage = new InventoryPage(this.page!);
   await inventoryPage.assertCartCount(count);
 });
+

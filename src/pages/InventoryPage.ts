@@ -26,3 +26,4 @@ export class InventoryPage {
     await expect(this.cartBadge).toHaveText(count);
   }
 }
+

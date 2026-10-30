@@ -28,3 +28,4 @@ After({ timeout: 15000 }, async function (this: CustomWorld, scenario) {
     await this.browser.close();
   }
 });
+
