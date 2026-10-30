@@ -1,0 +1,27 @@
+{
+  "name": "playwright-typescript-cucumber-bdd",
+  "version": "1.0.0",
+  "description": "Enterprise BDD Automation Framework using Playwright, TypeScript, and Cucumber with Parallel Worker Execution",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js",
+    "test:parallel": "cucumber-js --parallel 3",
+    "test:smoke": "cucumber-js --tags \"@smoke\"",
+    "report": "node src/support/generate-report.js"
+  },
+  "keywords": ["playwright", "cucumber", "bdd", "typescript", "automation", "parallel"],
+  "author": "Dhwani Parikh",
+  "license": "ISC",
+  "dependencies": {
+    "@cucumber/cucumber": "^10.4.0",
+    "@playwright/test": "^1.43.0",
+    "playwright": "^1.43.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "cucumber-html-reporter": "^5.5.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
+
